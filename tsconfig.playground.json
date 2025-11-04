@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "dist",
+     "allowImportingTsExtensions": true,
+     "noEmit": true
+  },
+  "include": [
+    "playground.ts",
+    "src/server/**/*.ts",
+    "src/env.ts"
+  ]
+}
